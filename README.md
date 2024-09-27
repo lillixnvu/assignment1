@@ -25,4 +25,22 @@ You may need to download `wget` beforehand. Please use the following command:
 sudo pacman -S wget
 ```
 1. Visit the [Releases page](https://github.com/digitalocean/doctl/releases) for `doctl` and find the archive for your operating system and architecture. In this example, we will be using "doctl-1.114.0-linux-amd64.tar.gz"
-![release](C:/Users/lilli/Documents/CIT/term-2/2420-linux/assignment1/gallery/20240925154156.png)
+![release](./gallery/20240925154156.png)
+2. Right click the download link you prefer and **Copy link address**.
+![copylink](./gallery/20240925154253.png)
+3. Open your terminal and go into your home directory: 
+```bash
+cd ~
+```
+4. Paste the previous link after `wget` and run:
+```bash
+wget https://github.com/digitalocean/doctl/releases/download/v1.114.0/doctl-1.114.0-linux-amd64.tar.gz
+```
+5. Extract the binary, using `tar`, run:
+```bash
+tar xf ~/doctl-1.114.0-linux-amd64.tar.gz
+```
+6. Move the `doctl` binary into your path by running:
+```bash
+sudo mv ~/doctl /usr/local/bin
+```
