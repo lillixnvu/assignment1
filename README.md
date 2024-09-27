@@ -25,4 +25,4 @@ You may need to download `wget` beforehand. Please use the following command:
 sudo pacman -S wget
 ```
 1. Visit the [Releases page](https://github.com/digitalocean/doctl/releases) for `doctl` and find the archive for your operating system and architecture. In this example, we will be using "doctl-1.114.0-linux-amd64.tar.gz"
-![release]("gallery\20240925154156.png")
+![release]("C:\Users\lilli\Documents\CIT\term-2\2420-linux\assignment1\gallery\20240925154156.png")
