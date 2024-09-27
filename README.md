@@ -1,1 +1,1 @@
-# assignment1
+DigitalOcean: Setting Up and Configuring Droplets with `doctl` and Cloud-Init
